@@ -2,7 +2,10 @@
 # Ignore custom .htaccess stuff.
 /.htaccess
 
-# Note -- do not ignore capistrano deploymnet related resources or they won't work
+# Ignore capistrano deploymnet related resources
+/config/
+/lib/capistrano/
+/Capfile
 
 # Ignore large parts of the annoying cache directory without breaking things.
 cache/*
