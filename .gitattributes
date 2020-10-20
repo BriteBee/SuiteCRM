@@ -179,8 +179,9 @@ Dockerfile text eol=lf
 /tests export-ignore
 /build export-ignore
 /.github export-ignore
-# exclude capistrano deployment directory
-/config export-ignore
+# exclude capistrano directories
+/config/ export-ignore
+/lib/capistrano
 
 # Files to exclude when creating an archive
 /.gitmodules export-ignore
