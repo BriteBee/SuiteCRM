@@ -1,5 +1,5 @@
 server "staging.insurancemaestro.com", user: "deploy", roles: %w[app]
-set :branch, "staging"
+set :branch, :staging
 
 # server-based syntax
 # ======================
